@@ -15,7 +15,7 @@
         <form class="needs-validation" novalidate>
             <!-- First Name -->
             <div class="form-group">
-                <label for="first-name-input">First Name</label>
+<label for="first-name-input" class="form-label">First Name</label>
                 <input type="text" class="form-control" id="first-name-input" required>
                 <div class="invalid-feedback">
                     Please enter your first name.
@@ -57,7 +57,7 @@
             <!-- Graduation Year -->
             <div class="form-group">
 <label for="grad-year-select">Graduation Year</label>
-<select class="form-control" id="grad-year-select" required>
+<select class="form-select" id="grad-year-select" required>
                     <option value="">Choose...</option>
                     <option value="2020">2020</option>
                     <option value="2021">2021</option>
@@ -70,8 +70,8 @@
             </div>
             <!-- Conditions Checkbox -->
             <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="conditions-checkbox" required>
-                <label class="form-check-label" for="conditions-checkbox">I agree to the terms and conditions</label>
+<label for="conditions-checkbox">Agree to terms and conditions</label>
+<input type="checkbox" id="conditions-checkbox">
                 <div class="invalid-feedback">
                     You must agree to the terms and conditions.
                 </div>
